@@ -1,4 +1,8 @@
-body {	margin:center;}
+body {margin:center;}
+
+h1 {
+    text-align: center;
+}
 
 .navigationbar {
 	overflow: hidden;
@@ -6,9 +10,8 @@ body {	margin:center;}
 	float: center;
 	text-align:center;
 	display: block;
-	padding: 14px 16px;
+	padding: 15px 16px;
 	font-size: 30px; 
-	
 }
 
 .navigationbar a:hover {
@@ -16,8 +19,3 @@ body {	margin:center;}
 	color:black;
 }
 
-.navigationbar a.active {
-	background-color: white;
-	color: white;
-}
-style="list-style-type:square"
