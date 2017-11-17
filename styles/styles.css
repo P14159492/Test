@@ -2,21 +2,22 @@ body {	margin:center;}
 
 .navigationbar {
 	overflow: hidden;
-	background-color: white; 
+	background-color: black; 
 	float: center;
 	text-align:center;
 	display: block;
 	padding: 14px 16px;
-	font-size: 20px; 
+	font-size: 30px; 
 	
 }
 
 .navigationbar a:hover {
-	background-color: blue;
-	color:white;
+	background-color: white;
+	color:black;
 }
 
 .navigationbar a.active {
-	background-color: gray;
+	background-color: white;
 	color: white;
 }
+style="list-style-type:square"
