@@ -5,17 +5,25 @@ h1 {
 }
 
 .navigationbar {
+	display: block;
 	overflow: hidden;
-	background-color: black; 
+	background-color: gray; 
 	float: center;
 	text-align:center;
-	display: block;
-	padding: 15px 16px;
+	padding: 15px 10px;
 	font-size: 30px; 
+	border: 2px solid;
+	border-style: solid;
+	border-radius: 8px;
+}
+
+.navigationbar ul {
+	display:inline-block;
 }
 
 .navigationbar a:hover {
 	background-color: white;
 	color:black;
+	padding: 4px 4px;
 }
 
