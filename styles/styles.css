@@ -1,29 +1,30 @@
-body {margin:center;}
-
+body {
+    margin: center;
+}
 h1 {
     text-align: center;
 }
-
 .navigationbar {
-	display: block;
-	overflow: hidden;
-	background-color: gray; 
-	float: center;
-	text-align:center;
-	padding: 15px 10px;
-	font-size: 30px; 
-	border: 2px solid;
-	border-style: solid;
-	border-radius: 8px;
+    display: block;
+    overflow: hidden;
+    background-color: gray;
+    float: center;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 30px;
+    border: 2px solid;
+    border-style: solid;
+    border-radius: 8px;
 }
-
 .navigationbar ul {
-	display:inline-block;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-
 .navigationbar a:hover {
-	background-color: white;
-	color:black;
-	padding: 4px 4px;
+    background-color: white;
+    color: black;
+    padding: 4px 4px;
 }
-

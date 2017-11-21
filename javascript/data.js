@@ -1,5 +1,4 @@
 let jsonString = `
-
 {"content": [
 	{
 		"points":"Modern day Leicester has a population of approximately 330,000. The city and county as a whole, have a population of about one million"
@@ -28,6 +27,5 @@ let jsonString = `
 	{
 		"points": De Montfort University is renowned for its Business & Law department, performing arts, fashion and creative industries focus. Indeed, Dave’s Leicester Comedy Festival – the longest running-comedy festival in Europe – originated at De Montfort University."
 	}
-
 ]}
 `;
