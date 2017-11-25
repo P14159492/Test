@@ -1,30 +1,116 @@
 body {
-    margin: center;
+  margin: center;
 }
 h1 {
-    text-align: center;
+  text-align: center;
+  color: #116DBE;
 }
+h2 {
+	text-align: center;
+	color: #116DBE;
+}
+
 .navigationbar {
-    display: block;
-    overflow: hidden;
-    background-color: gray;
-    float: center;
-    text-align: center;
-    padding: 15px 10px;
-    font-size: 30px;
-    border: 2px solid;
-    border-style: solid;
-    border-radius: 8px;
+  display: block;
+  overflow: hidden;
+  background-color: #116DBE;
+  float: center;
+  width: 100%;
+  position: fixed;
+  border-radius: 8px;
+  text-align: center;
 }
-.navigationbar ul {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.navigationbar a {
+  float: center;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  text-align: center;
+
 }
 .navigationbar a:hover {
-    background-color: white;
+  background-color: red;
+  padding: 1px;
+  text-align: center;
+
+}
+
+img.homeimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.leicestercatherdral {
+  float: left;
+}
+
+@media (min-width: 600px) {
+  nav a {
+    width: 100%;
+    display: inline-block;
+  }
+  main {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  section {
+    width: 96%;
+    margin: 2%;
+    display: inline-block;
+    background: white;
     color: black;
-    padding: 4px 4px;
+  }
+  
+
+
+
+}
+@media (min-width: 1000px) {
+  nav {
+    display: inline-block;
+    margin: 2%;
+    width: 100%;
+  }
+  nav a {
+    line-height: 3em;
+    width: inherit;
+  }
+  #menu {
+    display: none;
+  }
+  main {
+    max-width: 1000px;
+  }
+  section {
+    width: 98%;
+    margin: 2%;
+    display: inline-block;
+    background: white;
+    color: black;
+  }
+}
+@media (min-width: 1800px) {
+  nav {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+  nav a {
+    line-height: 3em;
+    width: inherit;
+    text-align: center;
+  }
+  main {
+    max-width: 1000px;
+  }
+  section {
+    width: 100%;
+    margin: 150%;
+    display: inline-block;
+    background: white;
+    color: black;
+  }
 }

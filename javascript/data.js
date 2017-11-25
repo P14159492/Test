@@ -1,13 +1,13 @@
 let jsonString = `
 {"content": [
 	{
-		"points":"Modern day Leicester has a population of approximately 330,000. The city and county as a whole, have a population of about one million"
+		"points":"Modern day Leicester has a population of approximately 330,000. The city and county as a whole, have a population of about one million."
 	},
 	{
 		"points":"The city was founded by the Romans and was a staging post on the old Fosse Way to Lincoln. Evidence of their occupation can be seen at the Jewry Wall Museum in the city."
 	},
 	{
-		"points":"In 1841 Thomas Cook, founder of the famous travel agency, invented tourism when he chartered a train to carry people from Leicester to Loughborough"
+		"points":"In 1841 Thomas Cook, founder of the famous travel agency, invented tourism when he chartered a train to carry people from Leicester to Loughborough."
 	},
 	{
 		"points":"The exact centre of England is in Leicestershire marked with a sign on a farm just outside Fenney Drayton."
