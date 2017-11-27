@@ -2,7 +2,7 @@
   let demoData4 = document.getElementById("demo");
 
   // creates a JavaScript object by parsing the JSON-formatted string from the file
-  let obj = JSON.parse(jsonString);
+  let obj = JSON.parse(newwalk);
  
   let theData =  "";
 

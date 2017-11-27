@@ -1,4 +1,4 @@
-let jsonString = `
+let arch = `
 {"remembrance": [
 	{
 		"remembrancepoints":"The great wave of memorial building after the First World War resulted in thousands of commemorative monuments being raised both at home and on the battlefield."

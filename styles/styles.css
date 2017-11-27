@@ -10,6 +10,13 @@ h2 {
 	color: #116DBE;
 }
 
+.headerpicture {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
 .navigationbar {
   display: block;
   overflow: hidden;

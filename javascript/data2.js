@@ -1,4 +1,4 @@
-let jsonString2 = `
+var richardthethird = `
 {"richardthird": [
 	{
 		"richardthirdpoints":"Richard was born on 2 October 1452 at Fotheringhay Castle in Northamptonshire. His father was Richard Plantagenet, Duke of York and his mother Cecily Neville."

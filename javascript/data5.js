@@ -1,4 +1,4 @@
-let jsonString = `
+let kingpower = `
 {"power": [
 	{
 		"powerpoints":"In August 2002 the club moved into its new home, only a stone's throw away from their old Filbert Street ground."

@@ -1,4 +1,4 @@
-let jsonString = `
+let newwalk = `
 {"museum": [
 	{
 		"museumpoints":"New Walk Museum and Art Gallery originated in 1849."

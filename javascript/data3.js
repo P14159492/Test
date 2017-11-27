@@ -1,4 +1,4 @@
-let jsonString = `
+let haymarketclocktower = `
 {"clocktower": [
 	{
 		"clocktowerpoints":"The 'Haymarket Memorial Clock Tower' was designed by Joseph Goddard and built in 1868."
