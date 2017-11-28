@@ -1,5 +1,5 @@
 (function(){
-  let demoData3 = document.getElementById("demo");
+  let demoData3 = document.getElementById("demo3");
 
   // creates a JavaScript object by parsing the JSON-formatted string from the file
   let obj = JSON.parse(haymarketclocktower);

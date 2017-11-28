@@ -1,5 +1,5 @@
 (function(){
-  let demoData4 = document.getElementById("demo");
+  let demoData4 = document.getElementById("demo4");
 
   // creates a JavaScript object by parsing the JSON-formatted string from the file
   let obj = JSON.parse(newwalk);

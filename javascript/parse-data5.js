@@ -1,5 +1,5 @@
 (function(){
-  let demoData1 = document.getElementById("demo");
+  let demoData1 = document.getElementById("demo5");
 
   // creates a JavaScript object by parsing the JSON-formatted string from the file
   let obj = JSON.parse(kingpower);
