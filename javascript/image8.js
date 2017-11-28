@@ -1,4 +1,4 @@
-var space = 0;
+var center = 0;
 scentre();
 
 function scentre() {
@@ -8,8 +8,8 @@ function scentre() {
 		for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
     }
-    space++;
-    if (space > x.length) {space = 1}    
-    x[space-1].style.display = "block";  
+    center++;
+    if (center > x.length) {center = 1}    
+    x[center-1].style.display = "block";  
     setTimeout(scentre, 2000);
 }

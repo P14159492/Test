@@ -1,7 +1,7 @@
-var centre = `
+var spacecentrefeedback = `
 {"feedbackcentre": [
 	{
-		"feedbackcentrepoints":"The Cathedral is also nice to walk around and the stained glass windows are impressive- Matt S"
+		"feedbackcentrepoints":"Great Stadium and seating for 20,000 plus. New stand being built to accommodate more- Kevin L"
 	}
 ]}
 `;
