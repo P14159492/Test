@@ -225,6 +225,11 @@ footer a:hover {
   text-align: center;
 }
 
+.sitemap {
+	list-style-position: inside;
+	text-align: center;
+}
+
 
 
 
