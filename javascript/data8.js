@@ -1,7 +1,13 @@
-var spacecentrefeedback = `
-{"feedbackcentre": [
+var rugbyfeedback = `
+{"feedbackrugby": [
 	{
-		"feedbackcentrepoints":"Great Stadium and seating for 20,000 plus. New stand being built to accommodate more- Kevin L"
+		"feedbackrugbypoints":"It is not too big and has a good atmosphere and a knowledgeable and fervent crowd.- Owen H"
+	},
+	{
+		"feedbackrugbypoints":"The club have extensively modernised the stadium.- Mick N"
+	},
+	{
+		"feedbackrugbypoints":"If you want atmosphere this is the place to go. Great food outlets with lots of choice Plenty of parking nearby.- Alison K"
 	}
 ]}
 `;
