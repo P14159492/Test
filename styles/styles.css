@@ -98,7 +98,7 @@ img.remembrance {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 400px) {
   nav a {
     width: 100%;
     display: inline-block;
@@ -226,9 +226,23 @@ footer a:hover {
 }
 
 .sitemap {
-	list-style-position: inside;
-	text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #116DBE;
+  align-items: center;
+  justify-content: center;
 }
+
+.sitemap>li {
+  background-color: #979A9C;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+
 
 
 
