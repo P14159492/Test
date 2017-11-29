@@ -13,6 +13,14 @@ h2 {
 	color: #116DBE;
 }
 
+h3 {
+	text-align:center;
+}
+
+h4 {
+	text-align:center;
+}
+
 .headerpicture {
 	max-width: 100%;
 	height: auto;
