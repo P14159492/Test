@@ -11,5 +11,5 @@ function ctower() {
     clockIndex++;
     if (clockIndex > x.length) {clockIndex = 1}    
     x[clockIndex-1].style.display = "block";  
-    setTimeout(ctower, 2000);
+    setTimeout(ctower, 5000);
 }

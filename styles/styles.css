@@ -26,7 +26,6 @@ form {
 }
 
 
-
 .navigationbar {
   display: block;
   overflow: hidden;
@@ -65,40 +64,49 @@ form {
   height: 50%;
 }
 
-img.leicestercatherdral {
+.leicestercatherdral {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+  height: 20%;
 }
 
-img.richardthethird {
+.richardthethird {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+
 }
 
-img.clocktower {
+.clocktower {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+  height: 10%;
 }
 
-img.museum {
+.museum {
   display: block;
   margin-left: auto;
   margin-right: auto; 
+  width: 50%;
 }
 
-img.stadium {
+.stadium {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+.remembrance {
   display: block;
   margin-left: auto;
   margin-right: auto; 
-}
-
-img.remembrance {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
+  width:50%;
 }
 
 
