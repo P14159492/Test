@@ -1,34 +1,35 @@
-# The 3 languages of the web in action
+#Front End Web Development 
 
-A simple CSS-only 3-tab layout is provided, with a tab for HTML5, CSS and JavaScript.
+##Introduction
+This website is about a few key landmarks located in Leicester. It is available online, mainly targeted towards any individuals who are interested in the landmarks in Leicester. 
 
-Use this to **add 5 things you know about each language** to **each section** actually using each language as follows! At least reach stage 2.
+##Motivation
+The idea for developing a website about the history of Leicester, is that I am from Leicester. 
 
-## Stage 1: use HTML
+##Designs
+1. Wireframe screen designs have been developed for the website, for the end user. 
 
-Add 5 different pieces of information about each language using the following elements:
+2. The website has a total of 5 pages. It was originally a Single Page Application (SPA), but it was more user friendly to have multiple pages for the website. 
 
-- Add the HTML5 items in a **table**
-- Add the CSS items in an **unordered list**
-- Add the Javascript items in a **definition list**
+3. The Navigation Bar is positioned at the top of every page. If also stays fixed at the top of the page, even if the user has scrolled down the page. The navigation bar also provides buttons/ links to the other pages of the website. 
 
-## Stage 2: use CSS
+4. Some images include an animation or transition. This allows the website to be interactive for the user. This can be seen when hovering over the image. Another feature included is when the user is hovering over the text, a caption is shown. This was acheived by the use of Cascading Style Sheet (CSS). 
 
-Style each of the three language sections differently using CSS:
+##Testing Application
+1. The navigation bar should be functional, so users can access all the pages, from what page they are currently on.  
 
-- Use alternate colours for the table rows (`tr`) and style the `th` tags in the table head row separately. Use `border-collapse` to close the gaps between the table rows
-- Style the unordered list `ul` so that there are no bullet points and no margin or padding
-- give the `li` tags some padding of your own choice
-- Set a `border-top` property above each `li` tag and a final `border-bottom` to the `last-child`
-- Style the definition term (`dt`) and definition description (`dd`) items separately
+2. Animations/ Transitions should be working correctly, especially when a user is hovering over an image. 
 
-## Stage 3: use JavaScript
+3. The website should be responsive, for all devices.
 
-Take and store user input from JavaScript, and create new DOM nodes:
+##Results
+##PARC Design
+Proximity, Alignment, Repetition and Contrast (PARC) should be considered when designing a website, as these are the four fundamentals. 
 
-- Delete the definition list and create a `form` with an `input type="text"` field and an `input type="submit"` button
-- review `getElementById` and `eventListener` from the local storage exercise
-- use Javascript to **capture items** from user input into the form field, and **add a new paragraph** each time.
-- Use `localStorage.setItem("item-name", "value from form field");` to store the data
+Proximity: Simillar content should be grouped together; done by using simillar styles. 
+Alignment: Content on the page should be layout out, which should be easy to read and see for the user. The page/ website is seen as whole. 
+Repetition: This provides consistency throughout the whole website.
+Contrast: Even though the website should blend together, there should be some distinction between some images and some text. 
 
-To start your research, see [JavaScript HTML DOM Elements (Nodes)](https://www.w3schools.com/js/js_htmldom_nodes.asp) (W3Schools) and [Node.appendChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) (MDN Web Docs).
+##Conclusion
+##References
