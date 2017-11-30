@@ -1,7 +1,6 @@
 body {
-  margin: center;
+  margin: none;
   background-color: #979A9C;
-  
 }
 
 h1 {
@@ -25,17 +24,15 @@ form {
 	text-align: center;
 }
 
-
 .navigationbar {
   display: block;
   overflow: hidden;
   background-color: #116DBE;
-  float: center;
+  float: none;
   width: 100%;
   position: fixed;
   border-radius: 8px;
   text-align: center;
-  width: 100%;
   top: 0;
 }
 .navigationbar a {
