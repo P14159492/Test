@@ -11,5 +11,5 @@ function scentre() {
     center++;
     if (center > x.length) {center = 1}    
     x[center-1].style.display = "block";  
-    setTimeout(scentre, 2000);
+    setTimeout(scentre, 5000);
 }
