@@ -46,14 +46,16 @@ form {
   text-align: center;
   font-size: 25px;
   text-align: center;
-  
+  border-radius: 8px;
 
 }
 .navigationbar a:hover {
-  background-color: red;
-  padding: 1px;
+  background-color: #979A9C;
+  padding: 5px;
   text-align: center;
+  
 }
+
 
 img.homeimage {
   display: block;
@@ -220,7 +222,7 @@ footer a {
 }
 
 footer a:hover {
-  background-color: red;
+  background-color: #979A9C;
   padding: 5px;
   text-align: center;
 }
