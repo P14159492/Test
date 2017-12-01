@@ -26,7 +26,26 @@
 											<section>
 												<h2> Contact Us </h2>
 												<h3> We are currently located at: </h3>
-											</section>
+												<div class="googlemap" </div>
+												<p> 16 Granby Street</p>
+												<p> Leicester</p>
+												<p>LE1 1DE</p>
+												<p> Tel: 0116 2589 206</p>
+											
+											<div id="map" style="width:400px;height:400px;background:black"></div>
+											<script>
+											function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(52.63, -1.13),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+</section>
+											<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7uZfSJuEHQ8erCHsiynC_7t51vOcbk8s&callback=myMap"></script>
+											<script src="javascript/map.js"></script>
 											<footer>
 												<a href="sitemap.html">Sitemap</a>
 											</footer>
