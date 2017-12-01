@@ -61,7 +61,7 @@ form {
 }
 
 .homeimage:hover {
-	width:500px;
+	width:300px;
 }
 
 .leicestercatherdral {
@@ -253,6 +253,17 @@ footer a:hover {
   line-height: 20px;
   font-size: 15px;
 }
+
+.googlemap {
+	display: block;
+	margin: 0 auto;
+	height: auto;
+	width: 100%;
+}
+
+
+
+
 
 
 
