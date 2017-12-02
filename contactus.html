@@ -1,53 +1,43 @@
-		<!DOCTYPE html>
-		<html lang="en">
-			<head>
-				<meta charset="UTF-8">
-					<title>History of Leicester</title>
-					<link href="styles/styles.css" rel="stylesheet">
-					</head>
-					<body>
-						<header>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+			<title>History of Leicester</title>
+			<link href="styles/styles.css" rel="stylesheet">
+			</head>
+			<body>
+				<header>
+					<br>
+						<nav class="navigationbar">
+							<div style="margin-left: 2em">
+								<a href="index.html">History of Leicester</a>
+								<a href="keylandmarks.html">Key Landmarks</a>
+								<a href="reviews.html">Reviews</a>
+								<a href="contactus.html">Contact Us</a>
+							</div>
+						</nav>
+						<br>
 							<br>
-								<nav class="navigationbar">
-									<div style="margin-left: 2em">
-										<a href="index.html">History of Leicester</a>
-										<a href="keylandmarks.html">Key Landmarks</a>
-										<a href="reviews.html">Reviews</a>
-										<a href="contactus.html">Contact Us</a>
-									</div>
-								</nav>
 								<br>
 									<br>
 										<br>
+											<h1>Welcome to the History of Leicester</h1>
+										</header>
+										<section>
+											<h2> Contact Us </h2>
+											<h3> We are currently located at: </h3>
+											<h4> 16 Granby Street</h4>
+											<h4> Leicester</h4>
+											<h4>LE1 1DE</h4>
+											<h4> Tel: 0116 2589 206</h4>
+											<div class="googlemap" id="map" style="width:400px;height:400px;background-color:black"></div>
 											<br>
-												<br>
-													<h1>Welcome to the History of Leicester</h1>
-												</header>
-												<section>
-													<h2> Contact Us </h2>
-													<h3> We are currently located at: </h3>
-													<h4> 16 Granby Street</h4>
-													<h4> Leicester</h4>
-													<h4>LE1 1DE</h4>
-													<h4> Tel: 0116 2589 206</h4>
-													<div class="googlemap" id="map" style="width:400px;height:400px;background:black"></div>
-													<script>
-													function myMap() {
-													var mapOptions = {
-														center: new google.maps.LatLng(52.63, -1.13),
-														zoom: 10,
-														mapTypeId: google.maps.MapTypeId.HYBRID
-																	}
-													var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-																	}
-													</script>
-													<br>
-													<br>
-												</section>
-												<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7uZfSJuEHQ8erCHsiynC_7t51vOcbk8s&callback=myMap"></script>
-												<script src="javascript/map.js"></script>
-												<footer>
-													<a href="sitemap.html">Sitemap</a>
-												</footer>
-											</body>
-										</html>
+											<br>
+										</section>
+										<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7uZfSJuEHQ8erCHsiynC_7t51vOcbk8s&callback=myMap"></script>
+										<script src="javascript/map.js"></script>				
+										<footer>
+											<a href="sitemap.html">Sitemap</a>
+										</footer>
+									</body>
+								</html>
