@@ -48,8 +48,6 @@ form {
   text-align: center;
 }
 
-
-
 .homeimage {
   display: block;
   margin-left: auto;
@@ -107,6 +105,17 @@ form {
   width:50%;
 }
 
+.googlemap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 400px;
+  background-color:black;
+  position: relative;
+  padding-bottom: 10%;
+  padding-top: 10px;
+}
 
 @media (min-width: 400px) {
   nav a {
@@ -126,8 +135,8 @@ form {
     color: black;
   }
   
-  
-  
+  googlemap 
+   
 }
 
 
@@ -255,12 +264,7 @@ footer a:hover {
   font-size: 15px;
 }
 
-.googlemap {
-	display: block;
-	margin: 0 auto;
-	height: auto;
-	width: 100%;
-}
+
 
 
 
