@@ -1,28 +1,35 @@
+/* This will apply to all the tags that are witihn the bogy tag of the HTML document. */
+/* The background colour has been set to grey for the entire background. */
 body {
   background-color: #979A9C;
 }
-
+/* The h1 style will be applied to all text within the h1 tags in the HTML document. */
+/* All h1 text will be in the centre of the page and will be coloured white. */ 
 h1 {
   text-align: center;
   color: white;
 }
+/* The h2 style will be applied to all text within the h2 tags in the HTML document. */
+/* All h2 text will be in the centre of the page and will be coloured light blue. */ 
 h2 {
 	text-align: center;
 	color: #116DBE;
 }
-
+/* The h3 style will be applied to all text within the h3 tags in the HTML document. */
+/* All h3 text will be in the centre of the page.*/
 h3 {
 	text-align:center;
 }
-
+/* The h4 style will be applied to all text within the h4 tags in the HTML document. */
+/* All h4 text will be in the centre of the page.*/
 h4 {
 	text-align:center;
 }
-
+/* The form will be aligned in the centre of the page */
 form {
 	text-align: center;
 }
-
+/* The navigationbar is styled to appear on the top of the page in a fixed position, even when the user is scrolling down the page.*/
 .navigationbar {
   display: block;
   overflow: hidden;
@@ -43,11 +50,12 @@ form {
   border-radius: 8px;
   
 }
+/* When hovering over the navigation bar, the button will be highlighted */
 .navigationbar a:hover {
   background-color: #979A9C;
   text-align: center;
 }
-
+/* The home image is positioned at the bottom of the page. The image is also responsive, to adapt to different platforms. */
 .homeimage {
   display: block;
   margin-left: auto;
@@ -56,11 +64,11 @@ form {
   height: 50%;
   transition: width 5s;
 }
-
+/* When hovering over the image, the image should transition to a smaller size. */
 .homeimage:hover {
 	width:300px;
 }
-
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .leicestercatherdral {
   display: block;
   margin-left: auto;
@@ -68,14 +76,14 @@ form {
   width: 50%;
   height: 20%;
 }
-
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .richardthethird {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .clocktower {
   display: block;
   margin-left: auto;
@@ -83,28 +91,28 @@ form {
   width: 50%;
   height: 10%;
 }
-
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .museum {
   display: block;
   margin-left: auto;
   margin-right: auto; 
   width: 50%;
 }
-
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .stadium {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width:50%;
 }
-
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .remembrance {
   display: block;
   margin-left: auto;
   margin-right: auto; 
   width:50%;
 }
-
+/*The map is responsive, to adapt to different platforms. */ 
 .googlemap {
   display: block;
   margin-left: auto;
@@ -113,9 +121,8 @@ form {
   height: 400px;
   background-color:black;
   position: relative;
-
 }
-
+/* Media breakpoint for mobile phone sized screens; smallest breakpoint. */
 @media (min-width: 400px) {
   nav a {
     width: 100%;
@@ -133,10 +140,8 @@ form {
     background: white;
     color: black;
   }
-   
 }
-
-
+/* Media breakpoint for tablet sized platforms; medium breakpoint. */
 @media (min-width: 1200px) {
   nav {
     display: inline-block;
@@ -147,7 +152,6 @@ form {
     line-height: 3em;
     width: inherit;
   }
-
   main {
     max-width: 1000px;
   }
@@ -158,9 +162,8 @@ form {
     background: white;
     color: black;
   }
-  
-
 }
+/* Media breakpoint for desktop computer platforms; largest breakpoint. */
 @media (min-width: 2000px) {
   nav {
     display: inline-block;
@@ -184,11 +187,11 @@ form {
     color: black;
   }  
 }
-
+/* Image has been styled, so the text is not visible when the image is not hovered over. */
 figure {
   overflow: hidden;
 }
-
+/* Image has been styled, so the text is visible when the image is not hovered over. */
 figure img {
   background: #eee;
   margin-bottom: -4em;
@@ -196,7 +199,7 @@ figure img {
   margin-left: auto;
   margin-right: auto;
 }
-
+/* Styled for the caption to rise up into the image. */
 figcaption {
   box-sizing: border-box;
   height: 2em;
@@ -206,18 +209,15 @@ figcaption {
   opacity: 1;
   transition: all 3s;
   text-align: center;
-
 }
-
+/* Image has been styled, so when the image is hovered over, the text is visible.  */
 figure:hover figcaption {
   transform: translateY(0.5em);
   opacity: 1;
   margin-left: auto;
   margin-right: auto; 
-
- 
 }
-
+/* The footer is styled to match the navigation bar. */
 footer {
   text-align: center;
   background-color: #116DBE;
@@ -225,7 +225,7 @@ footer {
   font-size: 25px;
   color: white;
 }
-
+/* The footer is styled to match the navigation bar. */
 footer a {
   float: none;
   display: inline-block;
@@ -234,13 +234,13 @@ footer a {
   font-size: 25px;
   border-radius: 8px;
 }
-
+/* When hovering over the footer, it should highlight the button. */
 footer a:hover {
   background-color: #979A9C;
   padding: 5px;
   text-align: center;
 }
-
+/* The sitemap is responsive and adapts to the platform it is viewed on. */
 .sitemap {
   display: flex;
   flex-flow: row wrap;
