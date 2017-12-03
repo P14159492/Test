@@ -41,7 +41,7 @@ Contrast: Even though the website should blend together, there should be some di
 During the course of this module, I have learnt the basics of how to utilise HTML5, JavaScript and CSS to create a simple functional website, which can also be applied to real life situations. This module has encouraged me to apply and further develop these skills in the future. 
 
 ##References
-Content: 
+1. Content: 
 Adams, D. (2017). King Power Stadium | Leicester City FC | Football Ground Guide. [online] Footballgroundguide.com. Available at: http://www.footballgroundguide.com/leagues/king-power-stadium-leicester-city.html [Accessed 3 Dec. 2017].
 
 Bbc.co.uk. (n.d.). BBC - History - King Richard III (pictures, video, facts & news). [online] Available at: http://www.bbc.co.uk/history/people/king_richard_iii [Accessed 3 Dec. 2017].
@@ -74,7 +74,7 @@ World-guides.com. (n.d.). Leicester Landmarks and Monuments: Leicestershire, Eng
 
 
 Images:
-Church View Hotel (n.d.). National Space Centre. [image] Available at: http://www.churchviewhotel.com/images/thumbs/national-space-centre.jpg [Accessed 3 Dec. 2017].
+2. Church View Hotel (n.d.). National Space Centre. [image] Available at: http://www.churchviewhotel.com/images/thumbs/national-space-centre.jpg [Accessed 3 Dec. 2017].
 
 Citizen British Museum (n.d.). New Walk Museum. [image] Available at: https://citizen.britishmuseum.org/wp-content/uploads/leicester-museum-mg-1099-jpg-827x550.jpg [Accessed 3 Dec. 2017].
 
@@ -110,3 +110,12 @@ Wikipedia (2016). King Power Stadium. [image] Available at: https://upload.wikim
 
 Windsbird (2013). Richard III. [image] Available at: https://windsbird.files.wordpress.com/2013/07/o-richard-iii-570.jpg [Accessed 3 Dec. 2017].
 
+
+3. Sketches:
+Master Page: src="images/wireframe-sketches/masterpage.png"
+Home Page: src="images/wireframe-sketches/homepage.png"
+Key Landmarks Page: src="images/wireframe-sketches/keylandmarkspage.png"
+Reviews Page: src="images/wireframe-sketches/reviewspage.png"
+Contact Us Page: src="images/wireframe-sketches/contactuspage.png"
+Sitemap Page: src="images/wireframe-sketches/sitemappage.png"
+Navigation Bar/ Sitemap Page: src="images/wireframe-sketches/navbar-sitemappage.png"
