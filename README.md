@@ -23,6 +23,12 @@ The idea for developing a website about the history of Leicester, is that I am f
 3. The website should be responsive, for all devices.
 
 ##Results
+1. Navigation bar is fully functional and is responsive.
+
+2. Animations and transitions are working correctly.
+
+3. The website is adaptable for all devices. 
+
 ##PARC Design
 Proximity, Alignment, Repetition and Contrast (PARC) should be considered when designing a website, as these are the four fundamentals. 
 
@@ -32,6 +38,8 @@ Repetition: This provides consistency throughout the whole website.
 Contrast: Even though the website should blend together, there should be some distinction between some images and some text. 
 
 ##Conclusion
+During the course of this module, I have learnt the basics of how to utilise HTML5, JavaScript and CSS to create a simple functional website, which can also be applied to real life situations. This module has encouraged me to apply and further develop these skills in the future. 
+
 ##References
 Content: 
 Adams, D. (2017). King Power Stadium | Leicester City FC | Football Ground Guide. [online] Footballgroundguide.com. Available at: http://www.footballgroundguide.com/leagues/king-power-stadium-leicester-city.html [Accessed 3 Dec. 2017].
