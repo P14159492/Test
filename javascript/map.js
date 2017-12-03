@@ -1,5 +1,7 @@
+//Declare myMap as a function
 function myMap() {
-
+    // leicatherdral declared as variable
+    // lat and long match area of location with correct address, which should show when clicked on the marker.
     var leicatherdral = {
         info: '<strong>Leiecester Cathedral</strong><br>\
 					7 Martins House<br> Leicester, LE1 5PZ<br>\
@@ -7,7 +9,8 @@ function myMap() {
         lat: 52.634073,
         long: -1.137811
     };
-
+    // richthird declared as variable 
+    // lat and long match area of location with correct address, which should show when clicked on the marker.
     var richthird = {
         info: '<strong>Richard the Third</strong><br>\
 					7 Martins House<br> Leicester, LE1 5PZ<br>\
@@ -15,7 +18,8 @@ function myMap() {
         lat: 53.9627,
         long: -1.0788
     };
-
+    // hayclocktower declared as variable
+    // lat and long match area of location with correct address, which should show when clicked on the marker.
     var hayclocktower = {
         info: '<strong>Haymarket Clock Tower</strong><br>\r\
 					3 East Gates<br> Leicester LE1 5YA<br>\
@@ -23,7 +27,8 @@ function myMap() {
         lat: 52.635867,
         long: -1.133357
     };
-
+    // newMuseum declared as variable 
+    // lat and long match area of location with correct address, which should show when clicked on the marker.
     var newMuseum = {
         info: '<strong>New Walk Museum and Art Gallery</strong><br>\
 					53 New Walk<br> Leicester, LE1 7EA<br>\
@@ -31,7 +36,8 @@ function myMap() {
         lat: 52.629072,
         long: -1.125472
     };
-
+    // powerstaduium declared as variable 
+    // lat and long match area of location with correct address, which should show when clicked on the marker.
     var powerstaduium = {
         info: '<strong>King Power Stadium</strong><br>\
 					Filbert Way<br> Leicester, LE2 7FL<br>\
@@ -39,7 +45,8 @@ function myMap() {
         lat: 52.6183,
         long: -1.1413
     };
-
+    // arch declared as variable
+    // lat and long match area of location with correct address, which should show when clicked on the marker.    
     var arch = {
         info: '<strong>The Arch of Rememberance</strong><br>\
 					Victoria Park<br> Leicester, LE1 5YA<br>\
@@ -47,7 +54,8 @@ function myMap() {
         lat: 52.6240,
         long: -1.1186
     };
-
+    // tiger declared as variable 
+    // lat and long match area of location with correct address, which should show when clicked on the marker.
     var tiger = {
         info: '<strong>Welford Road Stadium</strong><br>\
 					Aylestone Road<br> Leicester, LE2 7TR<br>\
@@ -55,6 +63,8 @@ function myMap() {
         lat: 52.6233,
         long: -1.136
     };
+    // centre declared as variable 
+    // lat and long match area of location with correct address, which should show when clicked on the marker.
     var centre = {
         info: '<strong>National Space Centre</strong><br>\
 					Exploraion Dr<br> Leicester, LE4 5NS<br>\
@@ -62,7 +72,8 @@ function myMap() {
         lat: 52.653554,
         long: -1.132008
     };
-
+    // home declared as variable 
+    // lat and long match area of location with correct address, which should show when clicked on the marker.
     var home = {
         info: '<strong>Office Location</strong><br>\
 		16 Granby Street<br> Leicester, LE1 1DE<br>\
@@ -70,7 +81,7 @@ function myMap() {
         lat: 52.6338,
         long: -1.1301
     };
-
+    // locations declared as variable 
     var locations = [
         [leicatherdral.info, leicatherdral.lat, leicatherdral.long, 0],
         [richthird.info, richthird.lat, richthird.long, 1],
@@ -83,7 +94,8 @@ function myMap() {
         [home.info, home.lat, home.long, 8]
 
     ];
-
+    // map declared as variable. 
+    // When loading the page, the map will point to Leicester 
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 13,
         center: new google.maps.LatLng(52.6369, -1.1398),
@@ -91,7 +103,7 @@ function myMap() {
     });
 
     var infowindow = new google.maps.InfoWindow({});
-
+    // marker declared as variable 
     var marker, i;
 
     for (i = 0; i < locations.length; i++) {
