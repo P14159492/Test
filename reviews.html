@@ -1,92 +1,148 @@
+<!-- Declares what version of HTML the page is written in. -->
 <!DOCTYPE html>
+<!--Declares the language of the webpage. -->
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-			<title>History of Leicester</title>
-			<link href="styles/styles.css" rel="stylesheet">
-			</head>
-			<body>
-					<header>
-						<br>
-							<nav class="navigationbar">
-								<div style="margin-left: 2em">
-									<a href="index.html">History of Leicester</a>
-									<a href="keylandmarks.html">Key Landmarks</a>
-									<a href="reviews.html">Reviews</a>
-									<a href="contactus.html">Contact Us</a>
-								</div>
-							</nav>
-							<br>
-								<br>
-									<br>
-										<br>
-											<br>
-					<h1>Welcome to the History of Leicester</h1>				
-					</header>
-											<section>
-												<h2> Reviews </h2>
-												<h4> Some reviews about other Leicester Landmarks include: </h4>
-												<h4> Leicester Cathedral </h4>
-												<figure>
-													<img class="leicestercatherdealfeedback" src="images/leicestercathedral2.jpg">
-													<figcaption>
-				      <p>Leicester Cathedral is absolutely stunning and beautiful. </p>
-				    </figcaption>
-												</figure>
-												<ul id="demo7"></ul>
-												<h4> Leicester Tigers (Welford Road)</h4>
-												<figure>
-													<img class="tigers" src="images/tigers.jpg" alt="leitigersimage">
-													<figcaption>
-				        <p>Great Stadium and seating for 20,000 plus. New stand being built to accommodate more.</p>
-				      </figcaption>
-												</figure>
-												<ul id="demo8"></ul>
-												<h4> National Space Centre</h4>
-												<figure>
-													<img class="spacecentre" src="images/spacecentre.jpg" alt="spacecentreimage1">
-													<img class="spacecentre" src="images/spacecentre1.jpg" alt="spacecentreimage1" height="200" width="200">
-													<figcaption>
-				      <p>The National Space Centre really is a visit that is out of this world.</p>
-				    </figcaption>
-												</figure>
-												<ul style="list-style-type:square">
-													<li>Sit back in awe in the UK’s largest planetarium as we take you on a voyage of discovery in this 360° fulldome experience.- Kelly C</li>
-													<li>The planetarium was amazing with an animated film.- Victoria K</li>
-													<li>Well worth the money and time spent. Kids loved it so much to do and loads to interact with. Will be going back again next year. The 4d auditorium is well worth a visit.- Matthew D</li>
-												</ul>
-												<h2> Sign Up</h2>
-												<h3> Sign Up to receive emails about Leicester tours</h3>
-												<form class="signupform" action="#" method="post">
-													<div class="row">
-														<div>
-															<label for="name">Please Enter Your Email Address:</label>
-														</div>
-														<br>
-															<div>
-																<label>Email Address:</label>
-																<input type="text" name="name" id="name" placeholder="Your Email Address" required>
-																</div>
-															</div>
-															<label class="newsletter">Newsletter?</label>
-															<div>
-																<input type="checkbox" name="news" id="news" checked> Yes, please
-																					
-																</div>
-																<br>
-																	<button> Sign Up </button>
-																	<br>
-																		<br>
-																			<br>
-																			</form>
-																		</section>
-																		<script src="javascript/data7.js"></script>
-																		<script src="javascript/parse-data7.js"></script>
-																		<script src="javascript/data8.js"></script>
-																		<script src="javascript/parse-data8.js"></script>
-																		<script src="javascript/image8.js"></script>
-																		<footer>
-																			<a href="sitemap.html">Sitemap</a>
-																		</footer>
-																	</body>
-																</html>
+  <!--Used to include all head elements for metadata. -->
+  <head>
+    <!-- Specifies the character coding for the webpage. -->
+    <meta charset="UTF-8">
+    <!--Defines the title of the webpage. -->
+    <title>History of Leicester</title>
+    <!-- Links the stylesheet to the webpage. -->
+    <link href="styles/styles.css" rel="stylesheet">
+    <!-- Closing tag for the head element. -->
+  </head>
+  <!-- Opening tag for the body element. The bogy tags defines the webpage's document. -->
+  <body>
+    <!-- Opening tag for the header element. The heading for the webpage should be entered here. -->
+    <header>
+      <!--The br tags allow for a line break witin the webpage. -->
+      <br>
+      <!-- The nav tag is for the navigations links of the webpage. The code within the nav tag link to other pages within the website. -->
+      <nav class="navigationbar">
+        <div style="margin-left: 2em">
+          <a href="index.html">History of Leicester</a>
+          <a href="keylandmarks.html">Key Landmarks</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contactus.html">Contact Us</a>
+        </div>
+        <!-- Closing tag for the nav element. -->
+      </nav>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!-- h1 is used to define HTML header tags. The text within the h1 tags will be considered the label of the webpage. -->
+      <h1>Welcome to the History of Leicester</h1>
+      <!-- Closing tag for the header element. -->
+    </header>
+    <!--Section tag is used to group all the tags inside the section tag together. -->
+    <!--This section is about some reviews about the few key landmarks in Leicester. -->
+    <section id="reviews" class="reviews-content">
+      <!-- h2 is used to define HTML header tags. -->
+      <h2> Reviews </h2>
+      <!-- h4 is used to define HTML header tags. -->
+      <h4> Some reviews about other Leicester Landmarks include: </h4>
+      <h4> Leicester Cathedral </h4>
+      <!-- Figure tags allow text to be contained within the tag. -->
+      <figure>
+        <!-- This image tag defines the images for the Leicester Cathedral. -->
+        <img class="leicestercatherdealfeedback" src="images/leicestercathedral2.jpg">
+        <figcaption>
+          <!--The figcaption tag will enable the text to appear only within the specified image. -->
+          <p>Leicester Cathedral is absolutely stunning and beautiful. </p>
+          <!--Closing tag for figcaption tag. -->
+        </figcaption>
+        <!-- Closing tag for figure tag. -->
+      </figure>
+      <!-- Gets the data from a JavaScript file containing a variable named 'jsonString' whose value is a JSON-formatted string (look in the file: javascript/parse-data7.js) -->
+      <ul id="demo7"></ul>
+      <!-- h4 is used to define HTML header tags. -->
+      <h4> Leicester Tigers (Welford Road)</h4>
+      <!-- Figure tags allow text to be contained within the tag. -->
+      <figure>
+        <!-- This image tag defines the images for the Leicester Tigers Stadium. -->
+        <img class="tigers" src="images/tigers.jpg" alt="leitigersimage">
+        <!--The figcaption tag will enable the text to appear only within the specified image. -->
+        <figcaption>
+          <p>Great Stadium and seating for 20,000 plus. New stand being built to accommodate more.</p>
+          <!--Closing tag for figcaption tag. -->
+        </figcaption>
+        <!-- Closing tag for figure tag. -->
+      </figure>
+      <!-- Gets the data from a JavaScript file containing a variable named 'jsonString' whose value is a JSON-formatted string (look in the file: javascript/parse-data8.js) -->
+      <ul id="demo8"></ul>
+      <!-- h4 is used to define HTML header tags. -->
+      <h4> National Space Centre</h4>
+      <!-- Figure tags allow text to be contained within the tag. -->
+      <figure>
+        <!-- This image tag defines the images for the National Space Centre. -->
+        <img class="spacecentre" src="images/spacecentre.jpg" alt="spacecentreimage1">
+        <img class="spacecentre" src="images/spacecentre1.jpg" alt="spacecentreimage1" height="200" width="200">
+        <!--The figcaption tag will enable the text to appear only within the specified image. -->
+        <figcaption>
+          <p>The National Space Centre really is a visit that is out of this world.</p>
+          <!--Closing tag for figcaption tag. -->
+        </figcaption>
+        <!-- Closing tag for figure tag. -->
+      </figure>
+      <!-- Defines the style for the bullet point shape for the list. -->
+      <ul style="list-style-type:square">
+        <!--This is the content that will appear in list form on the webpage. -->
+        <li>Sit back in awe in the UK’s largest planetarium as we take you on a voyage of discovery in this 360° fulldome experience.- Kelly C</li>
+        <li>The planetarium was amazing with an animated film.- Victoria K</li>
+        <li>Well worth the money and time spent. Kids loved it so much to do and loads to interact with. Will be going back again next year. The 4d auditorium is well worth a visit.- Matthew D</li>
+        <!-- Closing tag for the unordered list. -->
+      </ul>
+      <!-- h2 is used to define HTML header tags. -->
+      <h2> Sign Up</h2>
+      <!-- h3 is used to define HTML header tags. -->
+      <h3> Sign Up to receive emails about Leicester tours</h3>
+      <!-- The form tag allows for a form to be put in place on the webpage, which a user can interact with. -->
+      <form class="signupform" action="#" method="post">
+        <div class="row">
+          <div>
+            <!--Label for the form. -->
+            <label for="name">Please Enter Your Email Address:</label>
+          </div>
+          <br>
+          <div>
+            <!--Label for the form. -->
+            <label>Email Address:</label>
+            <!-- A  textbox is placed in the form, which is required to be filled out by the user. -->
+            <input type="text" name="name" id="name" placeholder="Your Email Address" required>
+          </div>
+        </div>
+        <!--Label for the form. -->
+        <label class="newsletter">Newsletter?</label>
+        <div>
+          <!-- A checkbox is part of the form for the user. -->
+          <input type="checkbox" name="news" id="news" checked> Yes, please			
+        </div>
+        <br>
+        <!-- A button on the form is provided. -->
+        <button> Sign Up </button>
+        <br>
+        <br>
+        <br>
+        <!-- Closing tag for the form tag. -->
+      </form>
+      <!-- Closing tag for the section element. -->
+    </section>
+    <!-- The script tag will point to a JavaScript. The JavaScript all allow data to be inserted on the webpage. -->
+    <script src="javascript/data7.js"></script>
+    <script src="javascript/parse-data7.js"></script>
+    <script src="javascript/data8.js"></script>
+    <script src="javascript/parse-data8.js"></script>
+    <script src="javascript/image8.js"></script>
+    <!--The footer tag defines the footer section of the webpage. -->
+    <footer>
+      <!--This is refering to the sitmap webpage of the whole website. -->
+      <a href="sitemap.html">Sitemap</a>
+      <!--Closing tag for the footer element. -->
+    </footer>
+    <!--Closing tag for the body tag.  -->
+  </body>
+  <!--Closing tag for the html document -->
+</html>
