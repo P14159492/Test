@@ -1,44 +1,75 @@
+<!-- Declares what version of HTML the page is written in. -->
 <!DOCTYPE html>
+<!--Declares the language of the webpage. -->
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-			<title>History of Leicester</title>
-			<link href="styles/styles.css" rel="stylesheet">
-			</head>
-			<body>
-				<header>
-					<br>
-						<nav class="navigationbar">
-							<div style="margin-left: 2em">
-								<a href="index.html">History of Leicester</a>
-								<a href="keylandmarks.html">Key Landmarks</a>
-								<a href="reviews.html">Reviews</a>
-								<a href="contactus.html">Contact Us</a>
-							</div>
-						</nav>
-						<br>
-							<br>
-								<br>
-									<br>
-										<br>
-											<h1>Welcome to the History of Leicester</h1>
-										</header>
-										<section>
-											<h2> Contact Us </h2>
-											<h3> We are currently located at: </h3>
-											<h4> 16 Granby Street</h4>
-											<h4> Leicester</h4>
-											<h4>LE1 1DE</h4>
-											<h4> Tel: 0116 2589 206</h4>
-											<h4> Shown below is our office and landmarks mentioned</h4>
-											<div class="googlemap" id="map"></div>
-											<br>
-											<br>
-										</section>
-										<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7uZfSJuEHQ8erCHsiynC_7t51vOcbk8s&callback=myMap"></script>
-										<script src="javascript/map.js"></script>				
-										<footer>
-											<a href="sitemap.html">Sitemap</a>
-										</footer>
-									</body>
-								</html>
+  <!--Used to include all head elements for metadata. -->
+  <head>
+    <!-- Specifies the character coding for the webpage. -->
+    <meta charset="UTF-8">
+    <!--Defines the title of the webpage. -->
+    <title>History of Leicester</title>
+    <!-- Links the stylesheet to the webpage. -->
+    <link href="styles/styles.css" rel="stylesheet">
+    <!-- Closing tag for the head element. -->
+  </head>
+  <!-- Opening tag for the body element. The bogy tags defines the webpage's document. -->
+  <body>
+    <!-- Opening tag for the header element. The heading for the webpage should be entered here. -->
+    <header>
+      <!--The br tags allow for a line break witin the webpage. -->
+      <br>
+      <!-- The nav tag is for the navigations links of the webpage. The code within the nav tag link to other pages within the website. -->
+      <nav class="navigationbar">
+        <div style="margin-left: 2em">
+          <a href="index.html">History of Leicester</a>
+          <a href="keylandmarks.html">Key Landmarks</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contactus.html">Contact Us</a>
+        </div>
+        <!-- Closing tag for the nav element. -->
+      </nav>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!-- h1 is used to define HTML header tags. The text within the h1 tags will be considered the label of the webpage. -->
+      <h1>Welcome to the History of Leicester</h1>
+      <!-- Closing tag for the header element. -->
+    </header>
+    <!--Section tag is used to group all the tags inside the section tag together. -->
+    <!--This section is about contacting the company. -->
+    <section id="contactus" class="contactus-content">
+      <!-- h2 is used to define HTML header tags. -->
+      <h2> Contact Us </h2>
+      <!-- h3 is used to define HTML header tags. -->
+      <h3> We are currently located at: </h3>
+      <!-- h4 is used to define HTML header tags. -->
+      <h4> 16 Granby Street</h4>
+      <!-- h4 is used to define HTML header tags. -->
+      <h4> Leicester</h4>
+      <!-- h4 is used to define HTML header tags. -->
+      <h4>LE1 1DE</h4>
+      <!-- h4 is used to define HTML header tags. -->
+      <h4> Tel: 0116 2589 206</h4>
+      <!-- h4 is used to define HTML header tags. -->
+      <h4> Shown below is our office and landmarks mentioned</h4>
+      <!--The class allows certain properties to be added to the specfic section of text. The ID allow assgns a name. -->
+      <div class="googlemap" id="map"></div>
+      <br>
+      <br>
+      <!-- Closing tag for the section element. -->
+    </section>
+    <!-- The script tag will point to a JavaScript. The JavaScript allows data to be inserted on the webpage. -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7uZfSJuEHQ8erCHsiynC_7t51vOcbk8s&callback=myMap"></script>
+    <script src="javascript/map.js"></script>
+    <!--The footer tag defines the footer section of the webpage. -->
+    <footer>
+      <!--This is refering to the sitmap webpage of the whole website. -->
+      <a href="sitemap.html">Sitemap</a>
+      <!--Closing tag for the footer element. -->
+    </footer>
+    <!--Closing tag for the body tag.  -->
+  </body>
+  <!--Closing tag for the html document -->
+</html>
