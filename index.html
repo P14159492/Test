@@ -1,48 +1,65 @@
+<!-- Declares what version of HTML the page is written in. -->
 <!DOCTYPE html>
+<!--Declares the language of the webpage. -->
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-			<title>History of Leicester</title>
-			<link href="styles/styles.css" rel="stylesheet">
-			</head>
-			<body>
-					<header>
-						<br>
-							<nav class="navigationbar">
-								<div style="margin-left: 2em">
-									<a href="index.html">History of Leicester</a>
-									<a href="keylandmarks.html">Key Landmarks</a>
-									<a href="reviews.html">Reviews</a>
-									<a href="contactus.html">Contact Us</a>
-
-									
-								</div>
-							</nav>
-							<br>
-								<br>
-									<br>
-										<br>
-											<br>
-					<h1>Welcome to the History of Leicester</h1>				
-					</header>
-											<section>
-												<!-- content for History of Leicester -->
-												<!--<section id="historyofleicester" class="historyofleicester-content"> -->
-												<h2>History of Leicester</h2>
-												<p>Some facts about Leicester include:</p>
-												<!--
-		        gets the data from a JavaScript file containing a variable named
-		        'jsonString' whose value is a JSON-formatted string (look in the file):
-		        -->
-												<ul id="demo"></ul>
-												<br>
-													<img class="homeimage" src="images/homepageimage.jpg" alt="homepageimage">
-													</section>
-												<script src="javascript/data.js"></script>
-												<script src="javascript/parse-data.js"></script>
-												<br>
-													<footer>
-														<a href="sitemap.html">Sitemap</a>
-													</footer>
-												</body>
-											</html>
+  <!--Used to include all head elements for metadata. -->
+  <head>
+    <!-- Specifies the character coding for the webpage. -->
+    <meta charset="UTF-8">
+    <!--Defines the title of the webpage. -->
+    <title>History of Leicester</title>
+    <!-- Links the stylesheet to the webpage. -->
+    <link href="styles/styles.css" rel="stylesheet">
+  <!-- Closing tag for the head element. -->
+  </head>
+  <!-- Opening tag for the body element. The bogy tags defines the webpage's document. -->
+  <body>
+    <!-- Opening tag for the header element. The heading for the webpage should be entered here. -->
+    <header>
+      <!--The br tags allow for a line break witin the webpage. -->
+      <br>
+      <!-- The nav tag is for the navigations links of the webpage. The code within the nav tag link to other pages within the website. -->
+      <nav class="navigationbar">
+        <div style="margin-left: 2em">
+          <a href="index.html">History of Leicester</a>
+          <a href="keylandmarks.html">Key Landmarks</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contactus.html">Contact Us</a>
+        </div>
+      <!-- Closing tag for the nav element. -->
+      </nav>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!-- h1 is used to define HTML header tags. The text within the h1 tags will be considered the label of the webpage. -->
+      <h1>Welcome to the History of Leicester</h1>
+    <!-- Closing tag for the header element. -->
+    </header>
+    <section>
+      <!-- h2 is used to define HTML header tags. -->
+      <h2>History of Leicester</h2>
+      <!-- Content for History of Leicester -->
+	  <p>Some facts about Leicester include:</p>
+      <!-- Gets the data from a JavaScript file containing a variable named 'jsonString' whose value is a JSON-formatted string (look in the file: javascript/parse-data.js) -->
+      <ul id="demo"></ul>
+      <br>
+      <!--The image for the Leicester Skyline will appear. -->
+      <img class="homeimage" src="images/homepageimage.jpg" alt="homepageimage">
+      <!-- Closing tag for the section element. -->
+    </section>
+    <!-- The script tag will point to a JavaScript. -->
+    <script src="javascript/data.js"></script> <!--Closing tag for a script. -->
+    <script src="javascript/parse-data.js"></script> <!--Closing tag for a script. -->
+    <br>
+    <!--The footer tag defines the footer section of the webpage. -->
+    <footer>
+      <!--This is refering to the sitmap webpage of the whole website. -->
+      <a href="sitemap.html">Sitemap</a>
+      <!--Closing tag for the footer element. -->
+    </footer>
+    <!--Closing tag for the body tag.  -->
+  </body>
+  <!--Closing tag for the html document -->
+</html>
