@@ -1,6 +1,6 @@
 //Variable declared aIndex and given a value of 0
 var aIndex = 0;
-walk();
+walk1();
 //Declare walk as a function
 function walk() {
   //variables declared

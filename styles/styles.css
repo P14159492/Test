@@ -2,6 +2,7 @@
 /* The background colour has been set to grey for the entire background. */
 body {
   background-color: #979A9C;
+  margin: 0;
 }
 /* The h1 style will be applied to all text within the h1 tags in the HTML document. */
 /* All h1 text will be in the centre of the page and will be coloured white. */ 
@@ -180,7 +181,7 @@ form {
     max-width: 1000px;
   }
   section {
-    width: 100%;
+    
     margin: 150%;
     display: inline-block;
     background: white;

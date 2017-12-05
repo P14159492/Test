@@ -1,7 +1,7 @@
 //Variable declared center and given a value of 0
 var center = 0;
 scentre();
-//Declare walk as a function
+//Declare scentre as a function
 function scentre() {
   //variables declared
 	var i;
