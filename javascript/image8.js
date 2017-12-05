@@ -15,5 +15,5 @@ function scentre() {
     if (center > x.length) {center = 1}    
     x[center-1].style.display = "block";  
     //time set for each image to change
-    setTimeout(scentre, 5000);
+    setTimeout(scentre, 2000);
 }
