@@ -113,7 +113,7 @@ form {
   margin-right: auto; 
   width:50%;
 }
-
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .spacecentre {
   display: block;
   margin-left: auto;
