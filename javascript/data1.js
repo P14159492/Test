@@ -97,5 +97,4 @@ let jsonString = `
 		"remembrancepoints":"It was dedicated by the Bishop of Peterborough who in his address mentioned the sacrifice of some 12,000 Leicestershire men."		
 	}
 ]}
-
 `;

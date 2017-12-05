@@ -59,9 +59,9 @@ function ctower() {
 		for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
     }
-	clockIndex++;
-    if (clockIndex > x.length) {clockIndex = 2}    
-    x[clockIndex-2].style.display = "block"; 
+	    clockIndex++;
+    if (clockIndex > x.length) {clockIndex = 1}    
+    x[clockIndex-1].style.display = "block"; 
     //time set for each image to change    
     setTimeout(ctower, 2000);
 }
