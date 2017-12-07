@@ -1,12 +1,12 @@
-#Front End Web Development 
+# Front End Web Development 
 
-##Introduction
+## Introduction
 This website is about a few key landmarks located in Leicester. It is available online, mainly targeted towards any individuals who are interested in the landmarks in Leicester. 
 
-##Motivation
+## Motivation
 The idea for developing a website about the history of Leicester, is that I am from Leicester and there is a vast amount of history embedded in Leicester.
 
-##Designs
+## Designs
 1. Wireframe screen designs have been developed for the website, for the end user. They are located in the images folder.
 
 2. The website has a total of 5 pages. It was originally a Single Page Application (SPA), but it was more user friendly to have multiple pages for the website. 
@@ -15,21 +15,21 @@ The idea for developing a website about the history of Leicester, is that I am f
 
 4. Some images include an animation or transition. This allows the website to be interactive for the user. This can be seen when hovering over the image. Another feature included is when the user is hovering over the text, a caption is shown. This was achieved  by the use of Cascading Style Sheet (CSS). 
 
-##Testing Application
+## Testing Application
 1. The navigation bar should be functional, so users can access all the pages, from what page they are currently on.  
 
 2. Animations/ Transitions should be working correctly, especially when a user is hovering over an image. 
 
 3. The website should be responsive, for all devices.
 
-##Results
+## Results
 1. Navigation bar is fully functional and is responsive.
 
 2. Animations and transitions are working correctly.
 
 3. The website is adaptable for all devices. 
 
-##PARC Design
+## PARC Design
 Proximity, Alignment, Repetition and Contrast (PARC) should be considered when designing a website, as these are the four fundamentals. 
 
 Proximity: Similar content should be grouped together; done by using similar styles. 
@@ -37,10 +37,10 @@ Alignment: Content on the page should be layout out, which should be easy to rea
 Repetition: This provides consistency throughout the whole website.
 Contrast: Even though the website should blend together, there should be some distinction between some images and some text. 
 
-##Conclusion
+## Conclusion
 During the course of this module, I have learnt the basics of how to utilise HTML5, JavaScript and CSS to create a simple functional website, which can also be applied to real life situations. This module has encouraged me to apply and further develop these skills in the future. 
 
-##References
+## References
 1. Content: 
 Adams, D. (2017). King Power Stadium | Leicester City FC | Football Ground Guide. [online] Footballgroundguide.com. Available at: http://www.footballgroundguide.com/leagues/king-power-stadium-leicester-city.html [Accessed 3 Dec. 2017].
 
