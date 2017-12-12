@@ -114,7 +114,7 @@ Windsbird (2013). Richard III. [image] Available at: https://windsbird.files.wor
 3. Sketches: 
 All sketches were created using inVision= https://projects.invisionapp.com/d/login
 
-Master Page: ![Storyboard 1](images/wireframe-sketches/masterpage.png)
+Master Page: ![Storyboard 1] (images/wireframe-sketches/masterpage.png)
 
 Home Page: ![Storyboard 2] (images/wireframe-sketches/homepage.png)
 
