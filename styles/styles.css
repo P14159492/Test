@@ -263,6 +263,7 @@ footer {
   float:none;
   font-size: 25px;
   color: white;
+
 }
 /* The footer is styled to match the navigation bar. */
 footer a {
@@ -272,6 +273,7 @@ footer a {
   text-align: center;
   font-size: 25px;
   border-radius: 8px;
+ 
 }
 /* When hovering over the footer, it should highlight the button. */
 footer a:hover {
