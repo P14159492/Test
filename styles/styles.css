@@ -10,15 +10,12 @@ h1 {
   text-align: center;
   color: white;
   background: #116DBE;
-  transition: transform 1s;
+  transition: transform 2s;
+  border-radius: 8px;
 }
 
 h1:hover {
   transform: translate(20px, 20px);
-}
-/*h1:hover {
-    -webkit-transform: rotate(360deg); /* Safari */
-  /*  transform: rotate(360deg);
 }
 
 /* The h2 style will be applied to all text within the h2 tags in the HTML document. */
