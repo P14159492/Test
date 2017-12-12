@@ -9,14 +9,16 @@ body {
 h1 {
   text-align: center;
   color: white;
-   background: #116DBE;
-   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
-   transition: width 2s, height 2s, transform 2s;
-
+  background: #116DBE;
+  transition: transform 1s;
 }
+
 h1:hover {
+  transform: translate(20px, 20px);
+}
+/*h1:hover {
     -webkit-transform: rotate(360deg); /* Safari */
-    transform: rotate(360deg);
+  /*  transform: rotate(360deg);
 }
 
 /* The h2 style will be applied to all text within the h2 tags in the HTML document. */
