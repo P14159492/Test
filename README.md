@@ -73,8 +73,8 @@ World-guides.com. (n.d.). Leicester Landmarks and Monuments: Leicestershire, Eng
 World-guides.com. (n.d.). Leicester Landmarks and Monuments: Leicestershire, England. [online] Available at: http://www.world-guides.com/europe/england/leicestershire/leicester/leicester_landmarks.html [Accessed 3 Dec. 2017].
 
 
-Images:
-2. Church View Hotel (n.d.). National Space Centre. [image] Available at: http://www.churchviewhotel.com/images/thumbs/national-space-centre.jpg [Accessed 3 Dec. 2017].
+2. Images:
+Church View Hotel (n.d.). National Space Centre. [image] Available at: http://www.churchviewhotel.com/images/thumbs/national-space-centre.jpg [Accessed 3 Dec. 2017].
 
 Citizen British Museum (n.d.). New Walk Museum. [image] Available at: https://citizen.britishmuseum.org/wp-content/uploads/leicester-museum-mg-1099-jpg-827x550.jpg [Accessed 3 Dec. 2017].
 
@@ -111,11 +111,19 @@ Wikipedia (2016). King Power Stadium. [image] Available at: https://upload.wikim
 Windsbird (2013). Richard III. [image] Available at: https://windsbird.files.wordpress.com/2013/07/o-richard-iii-570.jpg [Accessed 3 Dec. 2017].
 
 
-3. Sketches: All sketches were created using inVision= https://projects.invisionapp.com/d/login
+3. Sketches: 
+All sketches were created using inVision= https://projects.invisionapp.com/d/login
+
 Master Page: ![Storyboard 1](images/wireframe-sketches/masterpage.png)
+
 Home Page: ![Storyboard 2] (images/wireframe-sketches/homepage.png)
+
 Key Landmarks Page: ![Storyboard 3] (images/wireframe-sketches/keylandmarkspage.png)
+
 Reviews Page: ![Storyboard 3] (images/wireframe-sketches/reviewspage.png)
+
 Contact Us Page: ![Storyboard 5] (images/wireframe-sketches/contactuspage.png)
+
 Sitemap Page: ![Storyboard 6] (images/wireframe-sketches/sitemappage.png)
+
 Navigation Bar/ Sitemap Page: ![Storyboard 7] (images/wireframe-sketches/navbar-sitemappage.png)
