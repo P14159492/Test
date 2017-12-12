@@ -13,11 +13,9 @@ h1 {
   transition: transform 2s;
   border-radius: 8px;
 }
-
 h1:hover {
   transform: translate(20px, 20px);
 }
-
 /* The h2 style will be applied to all text within the h2 tags in the HTML document. */
 /* All h2 text will be in the centre of the page and will be coloured light blue. */ 
 h2 {
@@ -38,7 +36,6 @@ h4 {
 form {
 	text-align: center;
 }
-
 /* The navigationbar is styled to appear on the top of the page in a fixed position, even when the user is scrolling down the page.*/
 .navigationbar {
   display: block;
@@ -141,6 +138,18 @@ form {
   margin-left: auto;
   margin-right: auto; 
   width:50%;
+}
+.leicestercatherdealfeedback {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width:100%;
+}
+.tigers {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width:100%;
 }	
 /*The map is responsive, to adapt to different platforms. */ 
 .googlemap {
@@ -278,7 +287,6 @@ footer a:hover {
   align-items: center;
   justify-content: center;
 }
-
 .sitemap>li {
   background-color: #979A9C;
   width: 100px;
@@ -287,6 +295,7 @@ footer a:hover {
   line-height: 20px;
   font-size: 15px;
 }
+
 
 
 
