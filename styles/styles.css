@@ -80,21 +80,34 @@ form {
 .homeimage:hover {
   border-radius:50%;
   box-shadow: 0 10px 6px -6px grey;
-  box-shadow:
-             1px 1px #116DBE,
-             2px 2px #116DBE,
-             3px 3px #116DBE;
+  box-shadow:      
+		1px 1px #116DBE,
+        2px 2px #116DBE,
+        3px 3px #116DBE;
   -webkit-transform: translateX(-3px);
   transform: translateX(-3px);
 
 }
 /* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .leicestercatherdral {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 20%;
+border-bottom-left-radius: 120px;
+border-top-right-radius: 120px; 
+border-bottom-right-radius: 15px;
+border-top-left-radius: 15px; 
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+width: 50%;
+height: 10%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.leicestercatherdral:hover {
+border-top-left-radius: 120px; 
+border-bottom-right-radius: 120px;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
 }
 /* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .richardthethird {
@@ -102,6 +115,7 @@ form {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: 10%;
 }
 /* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .clocktower {
@@ -161,6 +175,8 @@ form {
   background-color:black;
   position: relative;
 }
+
+
 /* Media breakpoint for mobile phone sized screens; smallest breakpoint. */
 @media (min-width: 400px) {
   nav a {
