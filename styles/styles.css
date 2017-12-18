@@ -56,7 +56,6 @@ form {
   text-align: center;
   font-size: 25px;
   border-radius: 8px;
-  
 }
 /* When hovering over the navigation bar, the button will be highlighted */
 .navigationbar a:hover {
@@ -86,7 +85,6 @@ form {
         3px 3px #116DBE;
   -webkit-transform: translateX(-3px);
   transform: translateX(-3px);
-
 }
 /* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .leicestercatherdral {
@@ -102,7 +100,7 @@ margin-left: auto;
 margin-right: auto;
 display: block;
 }
-
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .leicestercatherdral:hover {
 border-top-left-radius: 120px; 
 border-bottom-right-radius: 120px;
@@ -116,6 +114,19 @@ border-bottom-left-radius: 15px;
   margin-right: auto;
   width: 50%;
   height: 10%;
+  border-top-left-radius: 15px; 
+border-top-right-radius: 120px 30px; 
+border-bottom-left-radius: 120px 30px;
+border-bottom-right-radius: 15px;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+.richardthethird:hover {
+	border-top-left-radius: 30px 120px; 
+border-bottom-right-radius: 30px 120px;
+border-bottom-left-radius: 15px; 
+border-top-right-radius: 15px;
 }
 /* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .clocktower {
@@ -124,6 +135,18 @@ border-bottom-left-radius: 15px;
   margin-right: auto;
   width: 50%;
   height: 10%;
+  opacity: 1;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+.clocktower:hover {
+	-webkit-box-shadow: 0px 0px 15px 15px #fff;
+box-shadow: 0px 0px 15px 15px #fff;
+border-radius:50%;
+opacity: 0.6;
+-webkit-transform: rotate(720deg);
+transform: rotate(720deg);
 }
 /* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .museum {
@@ -131,6 +154,12 @@ border-bottom-left-radius: 15px;
   margin-left: auto;
   margin-right: auto; 
   width: 50%;
+  -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+.museum:hover {
+	border-radius:50%;
 }
 /* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .stadium {
@@ -145,6 +174,15 @@ border-bottom-left-radius: 15px;
   margin-left: auto;
   margin-right: auto; 
   width:50%;
+  -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+.remembrance:hover {
+	-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
 }
 /* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .spacecentre {
@@ -153,12 +191,14 @@ border-bottom-left-radius: 15px;
   margin-right: auto; 
   width:50%;
 }
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .leicestercatherdealfeedback {
   display: block;
   margin-left: auto;
   margin-right: auto; 
   width:100%;
 }
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
 .tigers {
   display: block;
   margin-left: auto;
