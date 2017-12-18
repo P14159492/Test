@@ -1,382 +1,394 @@
 /* This will apply to all the tags that are witihn the bogy tag of the HTML document. */
 /* The background colour has been set to grey for the entire background. */
+
 body {
-  background-color: #979A9C;
-  margin: auto;
+    background-color: #979A9C;
+    margin: auto;
 }
 /* The h1 style will be applied to all text within the h1 tags in the HTML document. */
-/* All h1 text will be in the centre of the page and will be coloured white. */ 
+/* All h1 text will be in the centre of the page and will be coloured white. */
+
 h1 {
-  text-align: center;
-  color: white;
-  background: #116DBE;
-  transition: transform 2s;
-  border-radius: 8px;
+    text-align: center;
+    color: white;
+    background: #116DBE;
+    transition: transform 2s;
+    border-radius: 8px;
 }
 h1:hover {
-  transform: translate(20px, 20px);
+    transform: translate(20px, 20px);
 }
 /* The h2 style will be applied to all text within the h2 tags in the HTML document. */
-/* All h2 text will be in the centre of the page and will be coloured light blue. */ 
+/* All h2 text will be in the centre of the page and will be coloured light blue. */
+
 h2 {
-	text-align: center;
-	color: #116DBE;
+    text-align: center;
+    color: #116DBE;
 }
 /* The h3 style will be applied to all text within the h3 tags in the HTML document. */
 /* All h3 text will be in the centre of the page.*/
+
 h3 {
-	text-align:center;
+    text-align: center;
 }
 /* The h4 style will be applied to all text within the h4 tags in the HTML document. */
 /* All h4 text will be in the centre of the page.*/
+
 h4 {
-	text-align:center;
+    text-align: center;
 }
 /* The form will be aligned in the centre of the page */
+
 form {
-	text-align: center;
+    text-align: center;
 }
 /* The navigationbar is styled to appear on the top of the page in a fixed position, even when the user is scrolling down the page.*/
+
 .navigationbar {
-  display: block;
-  overflow: hidden;
-  background-color: #116DBE;
-  float: none;
-  width: 100%;
-  position: fixed;
-  border-radius: 8px;
-  text-align: center;
-  top: 0;
-  margin: auto;
+    display: block;
+    overflow: hidden;
+    background-color: #116DBE;
+    float: none;
+    width: 100%;
+    position: fixed;
+    border-radius: 8px;
+    text-align: center;
+    top: 0;
+    margin: auto;
 }
 .navigationbar a {
-  float: none;
-  display: inline-block;
-  color: white;
-  text-align: center;
-  font-size: 25px;
-  border-radius: 8px;
+    float: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 8px;
 }
 /* When hovering over the navigation bar, the button will be highlighted */
+
 .navigationbar a:hover {
-  background-color: #979A9C;
-  text-align: center;
+    background-color: #979A9C;
+    text-align: center;
 }
 /* The home image is positioned at the bottom of the page. The image is also responsive, to adapt to different platforms. */
+
 .homeimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 50%;
-  margin-top: auto;
-  margin-bottom: auto;
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-     
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 /* When hovering over the image, the image should transition to a smaller size. */
+
 .homeimage:hover {
-  border-radius:50%;
-  box-shadow: 0 10px 6px -6px grey;
-  box-shadow:      
-		1px 1px #116DBE,
-        2px 2px #116DBE,
-        3px 3px #116DBE;
-  -webkit-transform: translateX(-3px);
-  transform: translateX(-3px);
+    border-radius: 50%;
+    box-shadow: 0 10px 6px -6px grey;
+    box-shadow: 1px 1px #116DBE, 2px 2px #116DBE, 3px 3px #116DBE;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .leicestercatherdral {
-border-bottom-left-radius: 120px;
-border-top-right-radius: 120px; 
-border-bottom-right-radius: 15px;
-border-top-left-radius: 15px; 
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
-width: 50%;
-height: 10%;
-margin-left: auto;
-margin-right: auto;
-display: block;
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    width: 50%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .leicestercatherdral:hover {
-border-top-left-radius: 120px; 
-border-bottom-right-radius: 120px;
-border-top-right-radius: 15px;
-border-bottom-left-radius: 15px;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .richardthethird {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 10%;
-  border-top-left-radius: 15px; 
-border-top-right-radius: 120px 30px; 
-border-bottom-left-radius: 120px 30px;
-border-bottom-right-radius: 15px;
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 10%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 120px 30px;
+    border-bottom-left-radius: 120px 30px;
+    border-bottom-right-radius: 15px;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .richardthethird:hover {
-	border-top-left-radius: 30px 120px; 
-border-bottom-right-radius: 30px 120px;
-border-bottom-left-radius: 15px; 
-border-top-right-radius: 15px;
+    border-top-left-radius: 30px 120px;
+    border-bottom-right-radius: 30px 120px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .clocktower {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 10%;
-  opacity: 1;
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 10%;
+    opacity: 1;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .clocktower:hover {
-	-webkit-box-shadow: 0px 0px 15px 15px #fff;
-box-shadow: 0px 0px 15px 15px #fff;
-border-radius:50%;
-opacity: 0.6;
--webkit-transform: rotate(720deg);
-transform: rotate(720deg);
+    -webkit-box-shadow: 0px 0px 15px 15px #fff;
+    box-shadow: 0px 0px 15px 15px #fff;
+    border-radius: 50%;
+    opacity: 0.6;
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .museum {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  width: 50%;
-  -webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
-
 .museum:hover {
-	border-radius:50%;
+    border-radius: 50%;
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .stadium {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .remembrance {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  width:50%;
-  -webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .remembrance:hover {
-	-webkit-transform: rotateY(180deg);
--webkit-transform-style: preserve-3d;
-transform: rotateY(180deg);
-transform-style: preserve-3d;
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .spacecentre {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
 .leicestercatherdealfeedback {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  width:100%;
-}
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
-.leicestercatherdealfeedback:hover {
-	  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(2.1);
-}
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
-.tigers {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  width:100%;
-}	
-/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */ 
-.tigers:hover {
-	  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-/*The map is responsive, to adapt to different platforms. */ 
-.googlemap {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 400px;
-  background-color:black;
-  position: relative;
-}
-
-
-/* Media breakpoint for mobile phone sized screens; smallest breakpoint. */
-@media (min-width: 400px) {
-  nav a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    display: inline-block;
-  }
-  main {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 12px;
-  }
-  section {
-    width: 96%;
-    margin: 2%;
-    display: inline-block;
-    background: white;
-    color: black;
-  }
+}
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
+.leicestercatherdealfeedback:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(2.1);
+}
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
+.tigers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+/* The image is animated, and styled to switch between different images. The image is also responsive, to adapt to different platforms. */
+
+.tigers:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*The map is responsive, to adapt to different platforms. */
+
+.googlemap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    background-color: black;
+    position: relative;
+}
+/* Media breakpoint for mobile phone sized screens; smallest breakpoint. */
+
+@media (min-width: 400px) {
+    nav a {
+        width: 100%;
+        display: inline-block;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    section {
+        width: 96%;
+        margin: 2%;
+        display: inline-block;
+        background: white;
+        color: black;
+    }
 }
 /* Media breakpoint for tablet sized platforms; medium breakpoint. */
+
 @media (min-width: 1200px) {
-  nav {
-    display: inline-block;
-    margin: 2%;
-    width: 100%;
-  }
-  nav a {
-    line-height: 3em;
-    width: inherit;
-  }
-  main {
-    max-width: 1000px;
-  }
-  section {
-    width: 98%;
-    margin: 2%;
-    display: inline-block;
-    background: white;
-    color: black;
-  }
+    nav {
+        display: inline-block;
+        margin: 2%;
+        width: 100%;
+    }
+    nav a {
+        line-height: 3em;
+        width: inherit;
+    }
+    main {
+        max-width: 1000px;
+    }
+    section {
+        width: 98%;
+        margin: 2%;
+        display: inline-block;
+        background: white;
+        color: black;
+    }
 }
 /* Media breakpoint for desktop computer platforms; largest breakpoint. */
+
 @media (min-width: 2000px) {
-  nav {
-    display: inline-block;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-  }
-  nav a {
-    line-height: 3em;
-    width: inherit;
-    text-align: center;
-  }
-  main {
-    max-width: 1000px;
-  }
-  section {
-    
-    margin: 150%;
-    display: inline-block;
-    background: white;
-    color: black;
-  }  
+    nav {
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    nav a {
+        line-height: 3em;
+        width: inherit;
+        text-align: center;
+    }
+    main {
+        max-width: 1000px;
+    }
+    section {
+        margin: 150%;
+        display: inline-block;
+        background: white;
+        color: black;
+    }
 }
 /* Image has been styled, so the text is not visible when the image is not hovered over. */
+
 figure {
-  overflow: hidden;
+    overflow: hidden;
 }
 /* Image has been styled, so the text is visible when the image is not hovered over. */
+
 figure img {
-  background: #eee;
-  margin-bottom: -4em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    background: #eee;
+    margin-bottom: -4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Styled for the caption to rise up into the image. */
+
 figcaption {
-  box-sizing: border-box;
-  height: 2em;
-  line-height: 1.2em;
-  transform: translateY(4em);
-  background: #fff;
-  opacity: 1;
-  transition: all 3s;
-  text-align: center;
+    box-sizing: border-box;
+    height: 2em;
+    line-height: 1.2em;
+    transform: translateY(4em);
+    background: #fff;
+    opacity: 1;
+    transition: all 3s;
+    text-align: center;
 }
 /* Image has been styled, so when the image is hovered over, the text is visible.  */
-figure:hover figcaption {
-  transform: translateY(0.5em);
-  opacity: 1;
-  margin-left: auto;
-  margin-right: auto; 
-}
-/* The footer is styled to match the navigation bar. */
-footer {
-  text-align: center;
-  background-color: #116DBE;
-  float:none;
-  font-size: 25px;
-  color: white;
 
+figure:hover figcaption {
+    transform: translateY(0.5em);
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* The footer is styled to match the navigation bar. */
+
+footer {
+    text-align: center;
+    background-color: #116DBE;
+    float: none;
+    font-size: 25px;
+    color: white;
+}
+/* The footer is styled to match the navigation bar. */
+
 footer a {
-  float: none;
-  display: inline-block;
-  color: white;
-  text-align: center;
-  font-size: 25px;
-  border-radius: 8px;
- 
+    float: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 8px;
 }
 /* When hovering over the footer, it should highlight the button. */
+
 footer a:hover {
-  background-color: #979A9C;
-  padding: 5px;
-  text-align: center;
+    background-color: #979A9C;
+    padding: 5px;
+    text-align: center;
 }
 /* The sitemap is responsive and adapts to the platform it is viewed on. */
+
 .sitemap {
-  display: flex;
-  flex-flow: row wrap;
-  background-color: #116DBE;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #116DBE;
+    align-items: center;
+    justify-content: center;
 }
 .sitemap>li {
-  background-color: #979A9C;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 20px;
-  font-size: 15px;
+    background-color: #979A9C;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
