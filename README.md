@@ -4,7 +4,7 @@
 This website is about a few key landmarks located in Leicester. It is available online, mainly targeted towards any individuals who are interested in the landmarks in Leicester. 
 
 ## Motivation
-The idea for developing a website about the history of Leicester, is that I am from Leicester and there is a vast amount of history embedded in Leicester.
+The idea for developing a website about the history of Leicester is because I am from Leicester and there is a vast amount of history embedded within Leicester.
 
 ## Designs
 1. Wireframe screen designs have been developed for the website, for the end user. They are located in the images folder.
@@ -13,7 +13,7 @@ The idea for developing a website about the history of Leicester, is that I am f
 
 3. The Navigation Bar is positioned at the top of every page. If also stays fixed at the top of the page, even if the user has scrolled down the page. The navigation bar also provides buttons/ links to the other pages of the website. 
 
-4. Some images include an animation or transition. This allows the website to be interactive for the user. This can be seen when hovering over the image. Another feature included is when the user is hovering over the text, a caption is shown. This was achieved  by the use of Cascading Style Sheet (CSS). 
+4. Some images include an animation or transition. This allows the website to be interactive for the user. This can be seen when hovering over the image. Another feature included is when the user is hovering over the text, a caption is shown. This was achieved by the use of Cascading Style Sheet (CSS). 
 
 ## Testing Application
 1. The navigation bar should be functional, so users can access all the pages, from what page they are currently on.  
@@ -33,15 +33,19 @@ The idea for developing a website about the history of Leicester, is that I am f
 Proximity, Alignment, Repetition and Contrast (PARC) should be considered when designing a website, as these are the four fundamentals. 
 
 Proximity: Similar content should be grouped together; done by using similar styles. 
-Alignment: Content on the page should be layout out, which should be easy to read and see for the user. The page/ website is seen as whole. 
-Repetition: This provides consistency throughout the whole website.
-Contrast: Even though the website should blend together, there should be some distinction between some images and some text. 
+
+Alignment: Content on the website should be structured, so it is easy to read and view for the user. The page/ website is seen as whole. 
+
+Repetition: This provides consistency throughout the whole website. The title of the website is placed consistently throughout the website. The navigation bar is also placed at the top of the website throughout.
+
+Contrast: Even though the website should blend together, there should be some distinction between some images and some text. The headings are in larger size, compared to the content of the website. 
 
 ## Conclusion
 During the course of this module, I have learnt the basics of how to utilise HTML5, JavaScript and CSS to create a simple functional website, which can also be applied to real life situations. This module has encouraged me to apply and further develop these skills in the future. 
 
 ## References
 1. Content: 
+
 Adams, D. (2017). King Power Stadium | Leicester City FC | Football Ground Guide. [online] Footballgroundguide.com. Available at: http://www.footballgroundguide.com/leagues/king-power-stadium-leicester-city.html [Accessed 3 Dec. 2017].
 
 Bbc.co.uk. (n.d.). BBC - History - King Richard III (pictures, video, facts & news). [online] Available at: http://www.bbc.co.uk/history/people/king_richard_iii [Accessed 3 Dec. 2017].
@@ -74,6 +78,7 @@ World-guides.com. (n.d.). Leicester Landmarks and Monuments: Leicestershire, Eng
 
 
 2. Images:
+
 Church View Hotel (n.d.). National Space Centre. [image] Available at: http://www.churchviewhotel.com/images/thumbs/national-space-centre.jpg [Accessed 3 Dec. 2017].
 
 Citizen British Museum (n.d.). New Walk Museum. [image] Available at: https://citizen.britishmuseum.org/wp-content/uploads/leicester-museum-mg-1099-jpg-827x550.jpg [Accessed 3 Dec. 2017].
